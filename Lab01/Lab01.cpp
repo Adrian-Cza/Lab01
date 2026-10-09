@@ -16,7 +16,18 @@ void Zad1() {
             "   * *      *    " << endl <<
             "  *****    *     " << endl <<
             " *     *    *    " << endl <<
-            "*       *    ****" << endl;
+            "*       *    ****" << endl << endl;
+}
+
+void Zad2() {
+    cout << "        *      " << endl <<
+            "       ***     " << endl <<
+            "  * ********* *" << endl <<
+            "    *********  " << endl <<
+            "     *******   " << endl <<
+            "    ***   ***  " << endl <<
+            "   **       ** " << endl << endl;
+
 }
 
 int main()
@@ -26,5 +37,7 @@ int main()
     Zad1();
     numeracja++;
 
-
+    Numer(numeracja);
+    Zad2();
+    numeracja++;
 }
