@@ -30,6 +30,19 @@ void Zad2() {
 
 }
 
+void Zad3() {
+    cout << "-----------LISTA OBECNOSCI------------" << endl <<
+            "______________________________________" << endl <<
+            " NR |     IMIE     |     NAZWISKO     |" << endl <<
+            "--------------------------------------" << endl <<
+            "  1 |    ALICJA    |       BAK        |" << endl <<
+            "--------------------------------------" << endl <<
+            "  2 |    FRANEK    |       DOM        |" << endl <<
+            "--------------------------------------" << endl <<
+            "  3 |    WOJTEK    |      KRZAK       |" << endl <<
+            "--------------------------------------" << endl << endl;
+}
+
 int main()
 {
     int numeracja = 1;
@@ -39,5 +52,9 @@ int main()
 
     Numer(numeracja);
     Zad2();
+    numeracja++;
+
+    Numer(numeracja);
+    Zad3();
     numeracja++;
 }
